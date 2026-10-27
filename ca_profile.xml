@@ -1,0 +1,10 @@
+<CommunityApplications>
+  <!-- Required profile -->
+  <Profile>
+   A self-hosted, web-based inventory and accounting application for eBay resellers: automatic eBay sync, real profit tracking, inventory, end-and-relist / repricing / delayed-promotion automations, error detection, expense and mileage ledger, income statement and a Schedule C–style tax report. One Docker container, your own eBay developer keys.
+  </Profile>
+  <!-- Optional icon -->
+  <Icon>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca/main/icon.svg</Icon>
+  <!-- Optional web page -->
+  <!-- Optional photos -->
+</CommunityApplications>
