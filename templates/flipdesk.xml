@@ -22,7 +22,7 @@
   <Project>https://github.com/Smith-Mountain-Lake-Resale/flipdesk</Project>
 
   <!-- Raw URL to this exact template file -->
-  <TemplateURL>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca/main/flipdesk.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca/main/templates/flipdesk.xml</TemplateURL>
 
   <!-- Readme first file -->
   <ReadMe>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk/main/README.md</ReadMe>
