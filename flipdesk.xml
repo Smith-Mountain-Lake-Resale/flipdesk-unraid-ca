@@ -1,5 +1,4 @@
 <Container version="2">
-  <!-- Delete this file if your repository does not ship Docker apps. -->
   <Name>flipdesk</Name>
   <Repository>ghcr.io/smith-mountain-lake-resale/flipdesk:latest</Repository>
   <Registry>https://ghcr.io/smith-mountain-lake-resale/flipdesk</Registry>
@@ -20,7 +19,7 @@
   </Overview>
   
   <!-- Project page -->
-  <Project>https://github.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca</Project>
+  <Project>https://github.com/Smith-Mountain-Lake-Resale/flipdesk</Project>
 
   <!-- Raw URL to this exact template file -->
   <TemplateURL>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca/main/flipdesk.xml</TemplateURL>
