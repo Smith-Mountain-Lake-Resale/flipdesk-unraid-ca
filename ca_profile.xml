@@ -6,5 +6,6 @@
   <!-- Optional icon -->
   <Icon>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca/main/icon.svg</Icon>
   <WebPage>https://flipdesk.me</WebPage>
+  <Support>https://github.com/Smith-Mountain-Lake-Resale/flipdesk/issues</Support>
   <!-- Optional photos -->
 </CommunityApplications>
