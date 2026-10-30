@@ -23,7 +23,7 @@
 
   <!-- Raw URL to this exact template file -->
   <TemplateURL>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca/main/flipdesk.xml</TemplateURL>
-
+  <Support>https://github.com/Smith-Mountain-Lake-Resale/flipdesk/issues</Support>
   <!-- Readme first file -->
   <ReadMe>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk/main/README.md</ReadMe>
 
