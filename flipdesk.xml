@@ -4,7 +4,7 @@
   <Registry>https://ghcr.io/smith-mountain-lake-resale/flipdesk</Registry>
   <Network>bridge</Network>
 
-  <Shell>bash</Shell>
+  <Shell>sh</Shell>
   <Privileged>false</Privileged>
 
   <!-- Optional but highly recommended: app icon -->
