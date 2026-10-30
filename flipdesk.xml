@@ -3,63 +3,23 @@
   <Repository>ghcr.io/smith-mountain-lake-resale/flipdesk:latest</Repository>
   <Registry>https://ghcr.io/smith-mountain-lake-resale/flipdesk</Registry>
   <Network>bridge</Network>
-
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-
-  <!-- Optional but highly recommended: app icon -->
   <Icon>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca/main/icon-512.png</Icon>
-
-  
-  <!-- NOTE: The port in the entry ALWAYS refers to the container port, not the host port-->
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
-
-  <!-- Plain text description -->
   <Overview>A self-hosted, web-based inventory and accounting application for eBay resellers: automatic eBay sync, real profit tracking, inventory, end-and-relist / repricing / delayed-promotion automations, error detection, expense and mileage ledger, income statement and a Schedule C–style tax report. One Docker container, your own eBay developer keys.
   </Overview>
-  
-  <!-- Project page -->
   <Project>https://github.com/Smith-Mountain-Lake-Resale/flipdesk</Project>
-
-  <!-- Raw URL to this exact template file -->
   <TemplateURL>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca/main/flipdesk.xml</TemplateURL>
   <Support>https://github.com/Smith-Mountain-Lake-Resale/flipdesk/issues</Support>
-  <!-- Readme first file -->
   <ReadMe>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk/main/README.md</ReadMe>
-
-  
-  <!-- Valid category entries can be generated from the Application Categorizer plugin available in Apps -->
-<Beta>False</Beta>
-<Category>Cloud: Productivity:</Category>
-<Date>2026-10-27</Date>
-
-  <!-- Optional extra app search terms -->
-  <ExtraSearchTerms>example sample starter</ExtraSearchTerms>
-
-  <!-- Optional system requirements text -->
+  <Category>Cloud: Productivity:</Category>
+  <ExtraSearchTerms>ebay reseller inventory accounting profit</ExtraSearchTerms>
   <Requires>Reverse Proxy setup for external access in order for eBay to send marketplace account deletion notifications</Requires>
-
-
-
-  <!-- Minimum and maximum Unraid version.-->
-  <MinVer>6.1</MinVer>
+  <MinVer>7.1</MinVer>
   <MaxVer>7.3</MaxVer>
-
-  <!-- Optionally set this if this container is deprecated for all OS versions -->
-  <!-- <Deprecated>true</Deprecated> -->
-
-  <!-- Optional: deprecate starting with a specific OS version -->
-  <!-- <DeprecatedMaxVer>7.2</DeprecatedMaxVer> -->
-
-  <!-- License of the container-->
   <License>MIT</License>
-
-  <!-- Screenshots -->
-  <!-- You can add multiple screenshots by adding multiple <Screenshot> tags -->
   <Screenshot>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca/main/screenshot.png</Screenshot>
-  
-
-  <!-- v2 templates should define ports/paths/variables with Config entries -->
   <Config Name="WebUI" Target="8080" Default="8080" Mode="tcp" Description="HTTP port for the WebUI." Type="Port" Display="always" Required="true" Mask="false"/>
   <Config Name="PUID" Target="PUID" Default="99" Description="User ID to run the container as." Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <Config Name="PGID" Target="PGID" Default="100" Description="Group ID to run the container as." Type="Variable" Display="advanced" Required="false" Mask="false"/>
@@ -68,5 +28,4 @@
   <Config Name="PUBLIC_URL" Target="PUBLIC_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">https://flipdesk.example.com</Config>
   <Config Name="DB_TYPE" Target="DB_TYPE" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">sqlite</Config>
   <Config Name="Port" Target="Port" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">8080</Config>
-
 </Container>
