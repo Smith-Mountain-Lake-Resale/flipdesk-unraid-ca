@@ -5,6 +5,6 @@
   </Profile>
   <!-- Optional icon -->
   <Icon>https://raw.githubusercontent.com/Smith-Mountain-Lake-Resale/flipdesk-unraid-ca/main/icon.svg</Icon>
-  <!-- Optional web page -->
+  <WebPage>https://flipdesk.me</WebPage>
   <!-- Optional photos -->
 </CommunityApplications>
